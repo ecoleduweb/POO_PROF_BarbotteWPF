@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="WpfApp1">
+      <assemblydata version="1.0.0.0" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Windows.ThemeInfoAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Windows.ResourceDictionaryLocation" ref="false" />
+            <enumValue>
+              <field name="None" />
+            </enumValue>
+          </argument>
+          <argument>
+            <type api="T:System.Windows.ResourceDictionaryLocation" ref="false" />
+            <enumValue>
+              <field name="SourceAssembly" />
+            </enumValue>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>WpfApp1</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyConfigurationAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Debug</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>WpfApp1</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>WpfApp1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:WpfApp1">
+      <topicdata group="api" />
+      <apidata name="WpfApp1" group="namespace" />
+      <elements>
+        <element api="T:WpfApp1.Partie" />
+      </elements>
+      <file name="N_WpfApp1" />
+    </api>
+    <api id="T:WpfApp1.Partie">
+      <topicdata group="api" />
+      <apidata name="Partie" group="type" subgroup="class" />
+      <typedata visibility="assembly" serializable="false" defaultConstructor="M:WpfApp1.Partie.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:WpfApp1.Partie.IndexJoueurActif" />
+        <element api="M:WpfApp1.Partie.#ctor" />
+        <element api="M:WpfApp1.Partie.AfficherInformation(WpfApp1.MainWindow,System.Int32,System.Int32)" />
+        <element api="M:WpfApp1.Partie.BrasserDe(WpfApp1.MainWindow)" />
+        <element api="M:WpfApp1.Partie.DéclarerGagnant" />
+        <element api="M:WpfApp1.Partie.NouvellePartie" />
+        <element api="M:WpfApp1.Partie.ProchainJoueur" />
+      </elements>
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+        </library>
+        <namespace api="N:WpfApp1" />
+      </containers>
+      <file name="T_WpfApp1_Partie" />
+    </api>
+    <api id="Methods.T:WpfApp1.Partie">
+      <topicdata name="Partie" group="list" subgroup="Methods" typeTopicId="T:WpfApp1.Partie" />
+      <apidata name="Partie" group="type" subgroup="class" />
+      <typedata visibility="assembly" serializable="false" defaultConstructor="M:WpfApp1.Partie.#ctor" />
+      <elements>
+        <element api="M:WpfApp1.Partie.AfficherInformation(WpfApp1.MainWindow,System.Int32,System.Int32)" />
+        <element api="M:WpfApp1.Partie.BrasserDe(WpfApp1.MainWindow)" />
+        <element api="M:WpfApp1.Partie.DéclarerGagnant" />
+        <element api="M:WpfApp1.Partie.NouvellePartie" />
+        <element api="M:WpfApp1.Partie.ProchainJoueur" />
+      </elements>
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" />
+      </containers>
+      <file name="Methods_T_WpfApp1_Partie" />
+    </api>
+    <api id="Fields.T:WpfApp1.Partie">
+      <topicdata name="Partie" group="list" subgroup="Fields" typeTopicId="T:WpfApp1.Partie" />
+      <apidata name="Partie" group="type" subgroup="class" />
+      <typedata visibility="assembly" serializable="false" defaultConstructor="M:WpfApp1.Partie.#ctor" />
+      <elements>
+        <element api="F:WpfApp1.Partie.IndexJoueurActif" />
+      </elements>
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" />
+      </containers>
+      <file name="Fields_T_WpfApp1_Partie" />
+    </api>
+    <api id="M:WpfApp1.Partie.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" ref="true" />
+      </containers>
+      <file name="M_WpfApp1_Partie__ctor" />
+    </api>
+    <api id="M:WpfApp1.Partie.AfficherInformation(WpfApp1.MainWindow,System.Int32,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="AfficherInformation" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="window">
+          <type api="T:WpfApp1.MainWindow" ref="true" />
+        </parameter>
+        <parameter name="de1">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="de2">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" ref="true" />
+      </containers>
+      <file name="M_WpfApp1_Partie_AfficherInformation" />
+    </api>
+    <api id="M:WpfApp1.Partie.BrasserDe(WpfApp1.MainWindow)">
+      <topicdata group="api" />
+      <apidata name="BrasserDe" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="window">
+          <type api="T:WpfApp1.MainWindow" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" ref="true" />
+      </containers>
+      <file name="M_WpfApp1_Partie_BrasserDe" />
+    </api>
+    <api id="M:WpfApp1.Partie.DéclarerGagnant">
+      <topicdata group="api" />
+      <apidata name="DéclarerGagnant" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" ref="true" />
+      </containers>
+      <file name="M_WpfApp1_Partie_DéclarerGagnant" />
+    </api>
+    <api id="F:WpfApp1.Partie.IndexJoueurActif">
+      <topicdata group="api" />
+      <apidata name="IndexJoueurActif" group="member" subgroup="field" />
+      <memberdata visibility="private" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" ref="true" />
+      </containers>
+      <file name="F_WpfApp1_Partie_IndexJoueurActif" />
+    </api>
+    <api id="M:WpfApp1.Partie.NouvellePartie">
+      <topicdata group="api" />
+      <apidata name="NouvellePartie" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" ref="true" />
+      </containers>
+      <file name="M_WpfApp1_Partie_NouvellePartie" />
+    </api>
+    <api id="M:WpfApp1.Partie.ProchainJoueur">
+      <topicdata group="api" />
+      <apidata name="ProchainJoueur" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="WpfApp1" module="WpfApp1" kind="WindowsApplication">
+          <assemblydata version="1.0.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:WpfApp1" />
+        <type api="T:WpfApp1.Partie" ref="true" />
+      </containers>
+      <file name="M_WpfApp1_Partie_ProchainJoueur" />
+    </api>
+  </apis>
+</reflection>
